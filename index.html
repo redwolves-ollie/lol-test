@@ -19,9 +19,9 @@
         frameworkUrl: buildUrl + "/Builds.framework.js",
         codeUrl: buildUrl + "/Builds.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "RedWolves",
         productName: "patterns-of-motion",
-        productVersion: "1.0",
+        productVersion: "1.1",
       };
 
       var container = document.querySelector("#unity-container");
@@ -31,8 +31,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1024px";
+        canvas.style.height = "576px";
       }
       var script = document.createElement("script");
       script.src = loaderUrl;
