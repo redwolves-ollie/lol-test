@@ -1,4 +1,9 @@
 {
+  "_meta": {
+    "maxChars": {
+      "welcome": 50
+    }
+  },
   "en": {
     "dialogueLevel0Line1": "Hello Explorers! Let's discover the secrets of motion in the universe together. I'm Newti, and I'll be your guide.",
     "dialogueLevel1Line1": "Motion means when something moves from one place to another. Imagine this area as our playground, where we can learn about motion by exploring different structures.",
@@ -33,7 +38,8 @@
     "dialogueLevel10Line1": "Greetings! Prepare for an exciting adventure where timing and precision are key. Be ready - the hoop moves faster in this challenging level.",
     "dialogueLevel10Line2": "Excellent! You have successfully conquered the moving target with great skill.",
     "dialogueLevel10Line3": "Our space mission has come to an end, but we are eagerly looking forward to more thrilling adventures in the future. See you soon!",
-    "tutorialLevelOne": "Hello! Are you ready to play?",
+    "dialogueLevel11Line1": "Congratulations!",
+    "dialogueLevel11Line2": "You have successfully completed all levels to reach the trophy.",
     "planetNameA": "Genesis Gateway",
     "planetNameB": "Candy Kingdom",
     "planetNameC": "Basketball Planet",
