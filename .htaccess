@@ -1,5 +1,12 @@
+<IfModule mod_mime.c>
+  AddEncoding gzip .gz
+  AddEncoding br .br
+</IfModule>
+
 <IfModule mod_headers.c>
-    <FilesMatch "\.(br|gz)$">
-        Header set Content-Encoding "%{REQUEST_FILENAME}e"
-    </FilesMatch>
+  # Serve correct content types and allow CORS requests
+  <FilesMatch "\.(gz|br)$">
+    Header always append Content-Encoding gzip
+    Header set Cache-Control "max-age=31536000"
+  </FilesMatch>
 </IfModule>
