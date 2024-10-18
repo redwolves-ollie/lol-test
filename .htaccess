@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+    <FilesMatch "\.(br|gz)$">
+        Header set Content-Encoding "%{REQUEST_FILENAME}e"
+    </FilesMatch>
+</IfModule>
